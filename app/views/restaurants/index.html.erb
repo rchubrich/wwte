@@ -1,0 +1,9 @@
+<div id="map-canvas"></div>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+  <div class="list">
+<li><%= restaurant.name %></li>
+  </div>
+  <% end %>
+</ul>

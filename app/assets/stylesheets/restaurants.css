@@ -1,13 +1,17 @@
 #map-canvas {
-  height: 700px;
-  width: 500px;
-  float: left;
+  height: 300px;
+  width: 600px;
 }
-/*.list {background-color:#597cb3;
-    max-width:100%;
+.list {background-color:#597cb3;
+      width:640px;
 }
 .list:nth-child(odd) {background-color:#a4d178;
-}*/
-ul li {font:80px "HelveticaNeueW01-UltLt";
+}
+
+ul {padding-left: 0px;
+}
+
+ul li {font:3em "HelveticaNeueW01-UltLt";
       list-style-type: none;
+      margin-left: 0px;
 }

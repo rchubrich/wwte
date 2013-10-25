@@ -1,5 +1,6 @@
 WWTE::Application.routes.draw do
   root :to => 'restaurants#index'
+  get ":id" => "restaurants#show"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

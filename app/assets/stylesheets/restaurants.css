@@ -8,6 +8,20 @@
 .list:nth-child(odd) {background-color:#a4d178;
 }
 
+.dropdown {height:400px;
+}
+/*.list:nth-child(1) {animation-duration: 3s;
+                    animation-name: slidedown;
+}
+
+@keyframes slidedown {
+  from {
+
+  }
+  to {
+
+  }
+}*/
 ul {padding-left: 0px;
 }
 

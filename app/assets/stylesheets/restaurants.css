@@ -24,7 +24,8 @@
 }*/
 ul {padding-left: 0px;
 }
-
+p {font:1em "HelveticaNeueW01-UltLt";
+}
 ul li {font:3em "HelveticaNeueW01-UltLt";
       list-style-type: none;
       margin-left: 0px;

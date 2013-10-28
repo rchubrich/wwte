@@ -2,9 +2,8 @@
 
 <ul>
   <% @restaurants.each do |restaurant| %>
-  <div class="list" id=<%= restaurant.id %>>
-    
-<li><%= restaurant.name %></li>
+  <div class="list" id=<%= restaurant.id %>>   
+    <li><%= restaurant.name %></li>
   <div id="moreinfo"></div>
   </div>
   <% end %>

@@ -171,7 +171,7 @@ $("div").click(function () {
   $('.list.dropdown').not(this).removeClass("dropdown");
   $(this).toggleClass("dropdown");
   var id = $(this).attr('id').toString();
-  $('#moreinfo').load(id);
+  $('#moreinfo', this).load(id);
 });
 
 }

@@ -1,6 +1,5 @@
-#map-canvas {
-  height: 300px;
-  width: 600px;
+#map-canvas {height: 300px;
+            width: 600px;
 }
 .list {background-color:#597cb3;
       width:640px;
@@ -8,7 +7,7 @@
 .list:nth-child(odd) {background-color:#a4d178;
 }
 
-.dropdown {height:400px;
+p {margin:0;
 }
 /*.list:nth-child(1) {animation-duration: 3s;
                     animation-name: slidedown;

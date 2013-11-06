@@ -10,6 +10,6 @@ require 'open-uri'
     phone = Restaurant.find(params[:id]).phone
     url = "http://api.yelp.com/phone_search?phone=#{phone}&ywsid=#{ENV["YELP_API_KEY"]}"
     @yelp = JSON.load(open(url).read)
-    render 'moreinfo'
+    render '_moreinfo', :layout=>false
   end
 end

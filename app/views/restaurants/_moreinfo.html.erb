@@ -1,4 +1,5 @@
 <% r = Restaurant.find(params[:id]) %>
 <p><%= number_to_phone(r.phone, area_code: true) %></p>
 <p><%= r.url %></p>
-<p><%= @yelp["businesses"][0]["address1"] %></p>
+<p><%= r.address %></p>
+<p><%= r.description %></p>

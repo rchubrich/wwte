@@ -168,8 +168,9 @@ function initialize() {
 // });
 
 $("div").click(function () {
-  $('.list.dropdown').not(this).removeClass("dropdown");
-  $(this).toggleClass("dropdown");
+  $('#moreinfo', this).toggle();
+  // $('.list.dropdown').not(this).removeClass("dropdown");
+  // $(this).toggleClass("dropdown");
   var id = $(this).attr('id').toString();
   $('#moreinfo', this).load(id);
 });

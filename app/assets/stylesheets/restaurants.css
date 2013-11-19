@@ -1,12 +1,13 @@
-#map-canvas {height: 300px;
-            width: 600px;
+#map-canvas {height: 375px;
+            width: 640px;
 }
-.list {background-color:#597cb3;
+.list {background-color:#E9E5DC;
       width:640px;
 }
-.list:nth-child(odd) {background-color:#a4d178;
+ul {margin:0;
 }
-
+body {margin:0;
+}
 p {margin:0;
 }
 /*.list:nth-child(1) {animation-duration: 3s;
@@ -23,9 +24,10 @@ p {margin:0;
 }*/
 ul {padding-left: 0px;
 }
-p {font:1em "HelveticaNeueW01-UltLt";
-}
-ul li {font:3em "HelveticaNeueW01-UltLt";
+p,a {font:1em "Futura W01 Medium";
+    margin-left: 5px;
+} 
+ul li {font:2.7em "Futura W01 Medium";
       list-style-type: none;
-      margin-left: 0px;
+      margin-left: 5px;
 }

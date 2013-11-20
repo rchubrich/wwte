@@ -11,19 +11,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131023213221) do
+ActiveRecord::Schema.define(:version => 20131120215221) do
 
   create_table "restaurants", :force => true do |t|
     t.string   "name"
     t.string   "locu_id"
     t.decimal  "latitude"
     t.decimal  "longitude"
-    t.integer  "phone"
+    t.integer  "phone",        :limit => 8
     t.string   "url"
     t.text     "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.datetime "created_at",                :null => false
+    t.datetime "updated_at",                :null => false
     t.string   "address"
+    t.string   "opentableurl"
   end
 
 end

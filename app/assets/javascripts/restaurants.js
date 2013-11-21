@@ -49,7 +49,7 @@ function initialize() {
 // });
 
 google.maps.event.addDomListenerOnce(delfina, 'click', function() {
-  var delfinalatlng = new google.maps.LatLng(37.761436,-122.424313);
+  var delfinalatlng = new google.maps.LatLng(37.761396,-122.424484);
   var marker = new google.maps.Marker({
       position: delfinalatlng,
       map: map,
@@ -65,7 +65,7 @@ google.maps.event.addDomListenerOnce(delfina, 'click', function() {
 var nopa = document.getElementsByClassName('list')[1];
 
 google.maps.event.addDomListenerOnce(nopa, 'click', function() {
-  var nopalatlng = new google.maps.LatLng(37.774834,-122.437469);
+  var nopalatlng = new google.maps.LatLng(37.774883,-122.437606);
   var marker = new google.maps.Marker({
       position: nopalatlng,
       map: map,
@@ -81,7 +81,7 @@ google.maps.event.addDomListenerOnce(nopa, 'click', function() {
 var zuni = document.getElementsByClassName('list')[2];
 
 google.maps.event.addDomListenerOnce(zuni, 'click', function() {
-  var zunilatlng = new google.maps.LatLng(37.773432,-122.421555);
+  var zunilatlng = new google.maps.LatLng(37.77366,-122.421529);
   var marker = new google.maps.Marker({
       position: zunilatlng,
       map: map,
@@ -97,7 +97,7 @@ google.maps.event.addDomListenerOnce(zuni, 'click', function() {
 var pizzeriadelfina1 = document.getElementsByClassName('list')[3];
 
 google.maps.event.addDomListenerOnce(pizzeriadelfina1, 'click', function() {
-  var pizzeriadelfina1latlng = new google.maps.LatLng(37.788922,-122.434324);
+  var pizzeriadelfina1latlng = new google.maps.LatLng(37.789008,-122.434355);
   var marker = new google.maps.Marker({
       position: pizzeriadelfina1latlng,
       map: map,
@@ -113,7 +113,7 @@ google.maps.event.addDomListenerOnce(pizzeriadelfina1, 'click', function() {
 var pizzeriadelfina2 = document.getElementsByClassName('list')[4];
 
 google.maps.event.addDomListenerOnce(pizzeriadelfina2, 'click', function() {
-  var pizzeriadelfina2latlng = new google.maps.LatLng(37.761466,-122.424232);
+  var pizzeriadelfina2latlng = new google.maps.LatLng(37.761419,-122.424383);
   var marker = new google.maps.Marker({
       position: pizzeriadelfina2latlng,
       map: map,
@@ -129,7 +129,7 @@ google.maps.event.addDomListenerOnce(pizzeriadelfina2, 'click', function() {
 var cotogna = document.getElementsByClassName('list')[5];
 
 google.maps.event.addDomListenerOnce(cotogna, 'click', function() {
-  var cotognalatlng = new google.maps.LatLng(37.797336,-122.403576);
+  var cotognalatlng = new google.maps.LatLng(37.797418,-122.403569);
   var marker = new google.maps.Marker({
       position: cotognalatlng,
       map: map,
@@ -145,7 +145,7 @@ google.maps.event.addDomListenerOnce(cotogna, 'click', function() {
 var kokkari = document.getElementsByClassName('list')[6];
 
 google.maps.event.addDomListenerOnce(kokkari, 'click', function() {
-  var kokkarilatlng = new google.maps.LatLng(37.797019,-122.399517);
+  var kokkarilatlng = new google.maps.LatLng(37.797026,-122.399682);
   var marker = new google.maps.Marker({
       position: kokkarilatlng,
       map: map,
@@ -161,7 +161,7 @@ google.maps.event.addDomListenerOnce(kokkari, 'click', function() {
 var chez = document.getElementsByClassName('list')[7];
 
 google.maps.event.addDomListenerOnce(chez, 'click', function() {
-  var chezlatlng = new google.maps.LatLng(37.879591,-122.268875);
+  var chezlatlng = new google.maps.LatLng(37.879613,-122.268962);
   var marker = new google.maps.Marker({
       position: chezlatlng,
       map: map,
@@ -177,7 +177,7 @@ google.maps.event.addDomListenerOnce(chez, 'click', function() {
 var otd = document.getElementsByClassName('list')[8];
 
 google.maps.event.addDomListenerOnce(otd, 'click', function() {
-  var otdlatlng = new google.maps.LatLng(37.787208,-122.43412);
+  var otdlatlng = new google.maps.LatLng(37.787077,-122.434122);
   var marker = new google.maps.Marker({
       position: otdlatlng,
       map: map,
@@ -193,7 +193,7 @@ google.maps.event.addDomListenerOnce(otd, 'click', function() {
 var frances = document.getElementsByClassName('list')[9];
 
 google.maps.event.addDomListenerOnce(frances, 'click', function() {
-  var franceslatlng = new google.maps.LatLng(37.76267,-122.432251);
+  var franceslatlng = new google.maps.LatLng(37.762793,-122.43226);
   var marker = new google.maps.Marker({
       position: franceslatlng,
       map: map,

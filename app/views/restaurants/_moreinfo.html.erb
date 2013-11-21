@@ -1,6 +1,8 @@
 <% r = Restaurant.find(params[:id]) %>
-<a href=tel:<%r.phone%>><%= number_to_phone(r.phone, area_code: true) %></a>
+<a href=tel:<%=r.phone%>><%= number_to_phone(r.phone, area_code: true) %></a>
 <a href=<%= r.url %>><%= r.url %></a>
-<p><%= r.address %></p>
+<p><%= r.address %></p><a href=<%=r.opentableurl%>>Book a table</a>
+<br>
 <br>
 <p><%= r.description %></p>
+<br>

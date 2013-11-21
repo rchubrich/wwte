@@ -1,7 +1,11 @@
 <% r = Restaurant.find(params[:id]) %>
 <a href=tel:<%=r.phone%>><%= number_to_phone(r.phone, area_code: true) %></a>
 <a href=<%= r.url %>><%= r.url %></a>
-<p><%= r.address %></p><a href=<%=r.opentableurl%>>Book a table</a>
+<p><%= r.address %></p>
+<% if params[:id].to_i<4 || params[:id].to_i>5%>
+<a href=<%=r.opentableurl%>>Book a table</a>
+<%else%>
+<%end%>
 <br>
 <br>
 <p><%= simple_format(r.description) %></p>

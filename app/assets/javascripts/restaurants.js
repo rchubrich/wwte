@@ -52,12 +52,12 @@ var counters = {
   }
 });
 
-$("div").click(function () {
-  $('#moreinfo', this).slideToggle(200);
-  // $('.list.dropdown').not(this).removeClass("dropdown");
-  // $(this).toggleClass("dropdown");
+$("div").one('click', function () {
   var id = $(this).attr('id').toString();
   $('#moreinfo', this).load(id);
+});
+$("div").click(function () {
+  $('#moreinfo', this).slideToggle(200);
 });
 
 }

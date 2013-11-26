@@ -57,7 +57,7 @@ $("div").one('click', function () {
   $('#moreinfo', this).load(id);
 });
 $("div").click(function () {
-  $('#moreinfo', this).slideToggle(200);
+  $('#moreinfo', this).slideToggle(400);
 });
 
 }

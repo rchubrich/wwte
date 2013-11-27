@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131120215221) do
+ActiveRecord::Schema.define(:version => 20131127010136) do
 
   create_table "restaurants", :force => true do |t|
     t.string   "name"
@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(:version => 20131120215221) do
     t.datetime "updated_at",                :null => false
     t.string   "address"
     t.string   "opentableurl"
+    t.string   "menu_url"
   end
 
 end

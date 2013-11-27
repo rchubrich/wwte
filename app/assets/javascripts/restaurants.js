@@ -20,7 +20,7 @@ var counters = {
   8:0,
   9:0
 }
-  $('ul').on("click", "div", function() {
+  $('ul').on("click", ".list", function() {
     var i = $(this).attr('id')-1;
     counters[i]++;
     var locationarray = [

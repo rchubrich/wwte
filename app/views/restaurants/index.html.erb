@@ -4,20 +4,19 @@
   <% @restaurants.each do |r| %>
   <div class="list" id=<%= r.id %>>   
     <li><%= r.name %></li>
-    <div class="moreinfo" id=<%= r.id %> style="display: none;">
-      <a href=tel:<%=r.phone%>><%= number_to_phone(r.phone, area_code: true) %></a>
-      <a href=<%= r.url %>><%= r.url[7..-1] %></a>
-      <p><%= r.address %></p><a href=<%= r.menu_url %> target="_blank">Menu</a>
-        <% if r.id.to_i<4 || r.id.to_i>5%>
-          <a href=<%=r.opentableurl%>>Book a table</a>
-        <%else%>
-        <%end%>
+  <div class="moreinfo" id=<%= r.id %> style="display: none;">
+    <a href=tel:<%=r.phone%>><%= number_to_phone(r.phone, area_code: true) %></a>
+    <a href=<%= r.url %>><%= r.url[7..-1] %></a>
+    <p><%= r.address %></p><a href=<%= r.menu_url %> target="_blank">Menu</a>
+      <% if r.id.to_i<4 || r.id.to_i>5%>
+        <a href=<%=r.opentableurl%>>Book a table</a>
+      <%else%>
+      <%end%>
 
-      <br>
-      <br>
-      <p><%= simple_format(r.description) %></p>
-      <br>
-    </div>
+    <br>
+    <br>
+    <p><%= simple_format(r.description) %></p>
+    <br></div>
   </div>
   <% end %>
 </ul>

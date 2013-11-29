@@ -4,7 +4,7 @@
   <% @restaurants.each do |restaurant| %>
   <div class="list" id=<%= restaurant.id %>>   
     <li><%= restaurant.name %></li>
-  <div id="moreinfo" style="display: none;"></div>
+  <div class="moreinfo" id=<%= restaurant.id %> style="display: none;"></div>
   </div>
   <% end %>
 </ul>

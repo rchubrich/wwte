@@ -52,12 +52,6 @@ var counters = {
   }
 });
 
-$("div").one('click', function () {
-  var id = $(this).attr('id').toString();
-  $('.moreinfo', this).load(id);
-});
-
-
 
 $("div").click(function () {
   $('.moreinfo', this).slideToggle(600);

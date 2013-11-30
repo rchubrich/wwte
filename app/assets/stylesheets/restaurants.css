@@ -12,8 +12,7 @@ body {background-color:#E9E5DC;
 p {margin:0;
 }
 
-h1 {display: inline;
-    opacity:0;
+h1 {opacity:0;
     animation:splash 1s;
     -webkit-animation:splash 1s;
     -webkit-animation-timing-function: ease-in-out;
